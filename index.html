@@ -192,13 +192,17 @@ TIMEWORKS INVESTMENT &#183; CONFIDENTIAL</text></svg>");
                   role="tab" aria-selected="false" aria-controls="panel-3" id="tab-3">
             Financials &amp; DD
           </button>
+          <button class="tab-btn shrink-0 py-6 text-[13px] font-medium tracking-[0.01em] text-mute hover:text-ink"
+                  role="tab" aria-selected="false" aria-controls="panel-4" id="tab-4">
+            Contracts &amp; Evidence
+          </button>
         </div>
       </nav>
 
       <div class="py-16 sm:py-20">
-        <!-- ── Tab 1. Business & Vision · 4개 카드 (2×2 그리드) ── -->
+        <!-- ── Tab 1. Business & Vision · 5개 카드 (md 2열 / lg 3열) ── -->
         <section id="panel-1" role="tabpanel" aria-labelledby="tab-1" class="panel is-active">
-          <div class="grid gap-6 sm:gap-8 grid-cols-1 md:grid-cols-2">
+          <div class="grid gap-6 sm:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 
             <article class="doc-card bg-paper border border-line p-8 sm:p-10 flex flex-col">
               <div class="flex items-start justify-between gap-6">
@@ -268,11 +272,28 @@ TIMEWORKS INVESTMENT &#183; CONFIDENTIAL</text></svg>");
               </div>
             </article>
 
+            <article class="doc-card bg-paper border border-line p-8 sm:p-10 flex flex-col">
+              <div class="flex items-start justify-between gap-6">
+                <span class="font-mono text-[10px] tracking-[0.2em] uppercase text-ink">BV-05 · PDF</span>
+                <span class="font-mono text-[10px] tracking-[0.12em] text-[#A5A5A3]">상시 열람</span>
+              </div>
+              <h3 class="mt-9 text-[19px] sm:text-[21px] font-semibold leading-[1.45] tracking-[-0.025em]">큐테크코리아 제품 및 실증(PoC) 레퍼런스</h3>
+              <p class="mt-5 text-[13px] leading-[1.95] text-mute flex-1">군부대, 지자체, 산업단지 등 실제 납품 내역과 공공/민간 PoC(인천공항공사, SK E&amp;S 등) 현장 실증 데이터 및 계약 증빙이 포함된 상세 포트폴리오입니다.</p>
+              <div class="mt-12 pt-6 border-t border-line flex items-end justify-between gap-6">
+                <span class="font-mono text-[10px] leading-[1.6] tracking-[0.1em] text-[#A5A5A3]">PDF · 실계약 및 필드 테스트 증빙</span>
+                <a href="./docs/큐테크코리아_제품reference.pdf" target="_blank" rel="noopener"
+                   class="shrink-0 inline-flex items-center gap-2 bg-ink text-paper px-5 py-3
+                          text-[12px] font-medium tracking-[0.01em] hover:bg-navy transition-colors">
+                  레퍼런스 열람 (PDF)<span class="doc-arrow">&rarr;</span>
+                </a>
+              </div>
+            </article>
+
           </div>
         </section>
-        <!-- ── Tab 2. SaaS Scale-up · 3개 카드 (lg 3열) ── -->
+        <!-- ── Tab 2. SaaS Scale-up · 4개 카드 (2행 2열) ── -->
         <section id="panel-2" role="tabpanel" aria-labelledby="tab-2" class="panel">
-          <div class="grid gap-6 sm:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div class="grid gap-6 sm:gap-8 grid-cols-1 md:grid-cols-2">
 
             <article class="doc-card bg-paper border border-line p-8 sm:p-10 flex flex-col">
               <div class="flex items-start justify-between gap-6">
@@ -321,6 +342,23 @@ TIMEWORKS INVESTMENT &#183; CONFIDENTIAL</text></svg>");
                    class="shrink-0 inline-flex items-center gap-2 bg-navy text-paper px-5 py-3
                           text-[12px] font-medium tracking-[0.01em] hover:bg-ink transition-colors">
                   시뮬레이터 실행 (Web)<span class="doc-arrow">&rarr;</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="doc-card bg-paper border border-line p-8 sm:p-10 flex flex-col">
+              <div class="flex items-start justify-between gap-6">
+                <span class="font-mono text-[10px] tracking-[0.2em] uppercase text-ink">SU-04 · WEB</span>
+                <span class="font-mono text-[10px] tracking-[0.12em] text-[#A5A5A3]">상시 가동 중</span>
+              </div>
+              <h3 class="mt-9 text-[19px] sm:text-[21px] font-semibold leading-[1.45] tracking-[-0.025em]">HMI V2 SaaS 대시보드 라이브</h3>
+              <p class="mt-5 text-[13px] leading-[1.95] text-mute flex-1">현장에 설치된 LoRa 센서 노드의 실시간 계측값과 이벤트 알람을 그대로 확인하는 운영 대시보드입니다. 당사의 관제 플랫폼이 24시간 가동 중임을 직접 검증하실 수 있습니다.</p>
+              <div class="mt-12 pt-6 border-t border-line flex items-end justify-between gap-6">
+                <span class="font-mono text-[10px] leading-[1.6] tracking-[0.1em] text-[#A5A5A3]">Live · 실시간 계측 데이터</span>
+                <a href="http://3.39.46.111:8501" target="_blank" rel="noopener"
+                   class="shrink-0 inline-flex items-center gap-2 bg-ink text-paper px-5 py-3
+                          text-[12px] font-medium tracking-[0.01em] hover:bg-navy transition-colors">
+                  라이브 관제망 접속<span class="doc-arrow">&rarr;</span>
                 </a>
               </div>
             </article>
@@ -413,6 +451,63 @@ TIMEWORKS INVESTMENT &#183; CONFIDENTIAL</text></svg>");
                    class="shrink-0 inline-flex items-center gap-2 bg-ink text-paper px-5 py-3
                           text-[12px] font-medium tracking-[0.01em] hover:bg-navy transition-colors">
                   주주명부 열람 (PDF)<span class="doc-arrow">&rarr;</span>
+                </a>
+              </div>
+            </article>
+
+          </div>
+        </section>
+        <!-- ── Tab 4. Contracts & Evidence · 3개 카드 (lg 3열) ── -->
+        <section id="panel-4" role="tabpanel" aria-labelledby="tab-4" class="panel">
+          <div class="grid gap-6 sm:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+
+            <article class="doc-card bg-paper border border-line p-8 sm:p-10 flex flex-col">
+              <div class="flex items-start justify-between gap-6">
+                <span class="font-mono text-[10px] tracking-[0.2em] uppercase text-ink">EV-01 · PDF</span>
+                <span class="font-mono text-[10px] tracking-[0.12em] text-[#A5A5A3]">B2G 수주 증빙</span>
+              </div>
+              <h3 class="mt-9 text-[19px] sm:text-[21px] font-semibold leading-[1.45] tracking-[-0.025em]">B2G 국방·지자체 수주 계약서 모음</h3>
+              <p class="mt-5 text-[13px] leading-[1.95] text-mute flex-1">공군, 해군, 지자체(구로구, 은평구, 안동시) 대상 실제 납품 및 시스템 구축 사업의 발주서 및 계약서 원본 통합 바인더입니다.</p>
+              <div class="mt-12 pt-6 border-t border-line flex items-end justify-between gap-6">
+                <span class="font-mono text-[10px] leading-[1.6] tracking-[0.1em] text-[#A5A5A3]">PDF · 공공조달 매출 증빙</span>
+                <a href="./docs/EV-01_B2G_Contracts.pdf" target="_blank" rel="noopener"
+                   class="shrink-0 inline-flex items-center gap-2 bg-ink text-paper px-5 py-3
+                          text-[12px] font-medium tracking-[0.01em] hover:bg-navy transition-colors">
+                  계약서 열람 (PDF)<span class="doc-arrow">&rarr;</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="doc-card bg-paper border border-line p-8 sm:p-10 flex flex-col">
+              <div class="flex items-start justify-between gap-6">
+                <span class="font-mono text-[10px] tracking-[0.2em] uppercase text-ink">EV-02 · PDF</span>
+                <span class="font-mono text-[10px] tracking-[0.12em] text-[#A5A5A3]">B2B 실증 증빙</span>
+              </div>
+              <h3 class="mt-9 text-[19px] sm:text-[21px] font-semibold leading-[1.45] tracking-[-0.025em]">B2B 산단·연구소 실증 계약서 모음</h3>
+              <p class="mt-5 text-[13px] leading-[1.95] text-mute flex-1">울산대학교(음향방출 및 다중가스) 납품 건 및 이동식 유량계 기술용역 하도급 계약서 등 산업단지 및 연구소 실증 레퍼런스 모음입니다.</p>
+              <div class="mt-12 pt-6 border-t border-line flex items-end justify-between gap-6">
+                <span class="font-mono text-[10px] leading-[1.6] tracking-[0.1em] text-[#A5A5A3]">PDF · 산단/연구소 실증 증빙</span>
+                <a href="./docs/EV-02_B2B_Contracts.pdf" target="_blank" rel="noopener"
+                   class="shrink-0 inline-flex items-center gap-2 bg-ink text-paper px-5 py-3
+                          text-[12px] font-medium tracking-[0.01em] hover:bg-navy transition-colors">
+                  계약서 열람 (PDF)<span class="doc-arrow">&rarr;</span>
+                </a>
+              </div>
+            </article>
+
+            <article class="doc-card bg-paper border border-line p-8 sm:p-10 flex flex-col">
+              <div class="flex items-start justify-between gap-6">
+                <span class="font-mono text-[10px] tracking-[0.2em] uppercase text-ink">EV-03 · PDF</span>
+                <span class="font-mono text-[10px] tracking-[0.12em] text-[#A5A5A3]">기술 파트너십</span>
+              </div>
+              <h3 class="mt-9 text-[19px] sm:text-[21px] font-semibold leading-[1.45] tracking-[-0.025em]">핵심 기술 파트너십 (예측진단기술)</h3>
+              <p class="mt-5 text-[13px] leading-[1.95] text-mute flex-1">음향방출 센서 최고 권위자인 울산대 김종면 교수((주)예측진단기술)와의 지하관로 누수/누출 시스템 공동 양산 및 사업 추진 동의서입니다.</p>
+              <div class="mt-12 pt-6 border-t border-line flex items-end justify-between gap-6">
+                <span class="font-mono text-[10px] leading-[1.6] tracking-[0.1em] text-[#A5A5A3]">PDF · 독점 파트너십 체결</span>
+                <a href="./docs/EV-03_Partnership_MOU.pdf" target="_blank" rel="noopener"
+                   class="shrink-0 inline-flex items-center gap-2 bg-ink text-paper px-5 py-3
+                          text-[12px] font-medium tracking-[0.01em] hover:bg-navy transition-colors">
+                  MOU 열람 (PDF)<span class="doc-arrow">&rarr;</span>
                 </a>
               </div>
             </article>
@@ -526,9 +621,10 @@ TIMEWORKS INVESTMENT &#183; CONFIDENTIAL</text></svg>");
   /* ── VDR 구성 리포트: 카드/링크 현황을 콘솔에 요약 출력 ── */
   (function report() {
     var panels = [
-      { name: 'Tab 1. Business & Vision', id: 'panel-1' },
-      { name: 'Tab 2. SaaS Scale-up',     id: 'panel-2' },
-      { name: 'Tab 3. Financials & DD',   id: 'panel-3' }
+      { name: 'Tab 1. Business & Vision',    id: 'panel-1' },
+      { name: 'Tab 2. SaaS Scale-up',        id: 'panel-2' },
+      { name: 'Tab 3. Financials & DD',      id: 'panel-3' },
+      { name: 'Tab 4. Contracts & Evidence', id: 'panel-4' }
     ];
     var rows = [], total = 0, pending = 0;
 
